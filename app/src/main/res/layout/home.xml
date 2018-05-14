@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?android:attr/colorMultiSelectHighlight"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="380dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Panggilan Kurir" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:layout_alignTop="@+id/button3"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/button3"
+        android:fontFamily="@font/archivo_black"
+        android:text="Lacak" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:layout_alignStart="@+id/button2"
+        android:layout_alignTop="@+id/button4"
+        android:fontFamily="@font/archivo_black"
+        android:text="Pengaturan" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:layout_alignStart="@+id/button3"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Riwayat" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:layout_alignStart="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="9dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Cek Harga" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="125dp"
+        android:layout_height="90dp"
+        android:layout_alignStart="@+id/button4"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Daftar Outlet" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="125dp"
+        android:layout_height="90dp"
+        android:layout_alignTop="@+id/button6"
+        android:layout_toEndOf="@+id/button6"
+        android:fontFamily="@font/archivo_black"
+        android:text="Bantuan" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="125dp"
+        android:layout_height="90dp"
+        android:layout_alignTop="@+id/button7"
+        android:layout_toEndOf="@+id/button7"
+        android:fontFamily="@font/archivo_black"
+        android:text="Tentang" />
+
+</RelativeLayout>
